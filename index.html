@@ -19,9 +19,33 @@ padding: 0;
 <body>
 
 <h1>message record</h1>
+<button id="returnButton">to app</button>
 <ul id="messageList"></ul>
 
 <script>
+
+          document
+        .getElementById("returnButton")
+        .addEventListener("click", function () {
+          // 创建 Custom Tabs Intent
+          var intent = new Intent();
+          intent.setAction("android.intent.action.VIEW");
+          intent.addCategory("android.intent.category.BROWSABLE");
+
+          // 设置启动 URL 为你的原生应用的 URL
+          intent.setData(Uri.parse("app_scheme://return"));
+
+          // 启动 Custom Tabs
+          var options = new Bundle();
+          var customTabsIntent = new CustomTabsIntent.Builder().build();
+          customTabsIntent.intent.setPackage("com.example.myapplication");
+          customTabsIntent.launchUrl(
+            yourActivityContext,
+            Uri.parse("app_scheme://return")
+          );
+        });
+
+    
 
     window.addEventListener('message', handleMessage(event));
 
