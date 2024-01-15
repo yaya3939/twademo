@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.example.myapplication",
+                 "sha256_cert_fingerprints": ["別名: key0 作成日: 2024/01/11 エントリ・タイプ: PrivateKeyEntry 証明書チェーンの長さ: 1 証明書[1]: 所有者: C=JP, ST=my, L=my, O=my, OU=mobile, CN=first 発行者: C=JP, ST=my, L=my, O=my, OU=mobile, CN=first シリアル番号: 1 有効期間の開始日: Thu Jan 11 14:08:47 JST 2024終了日: Mon Jan 04 14:08:47 JST 2049 証明書のフィンガプリント:          SHA1: 2A:EE:3C:79:4E:91:67:17:69:94:B1:D6:8C:4C:13:BC:F5:06:BB:8B          SHA256: 2F:1F:69:96:DE:A4:EE:27:62:41:84:53:8E:7C:A7:ED:6E:28:B8:80:9D:26:EB:A9:91:05:7C:B7:3D:D1:7F:81 署名アルゴリズム名: SHA256withRSA サブジェクト公開キー・アルゴリズム: 2048ビットRSAキー バージョン: 1"] }
+}]
