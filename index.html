@@ -27,22 +27,24 @@ padding: 0;
           document
         .getElementById("returnButton")
         .addEventListener("click", function () {
-          // 创建 Custom Tabs Intent
-          var intent = new Intent();
-          intent.setAction("android.intent.action.VIEW");
-          intent.addCategory("android.intent.category.BROWSABLE");
+          // // 创建 Custom Tabs Intent
+          // var intent = new Intent();
+          // intent.setAction("android.intent.action.VIEW");
+          // intent.addCategory("android.intent.category.BROWSABLE");
 
-          // 设置启动 URL 为你的原生应用的 URL
-          intent.setData(Uri.parse("app_scheme://return"));
+          // // 设置启动 URL 为你的原生应用的 URL
+          // intent.setData(Uri.parse("app_scheme://return"));
 
-          // 启动 Custom Tabs
-          var options = new Bundle();
-          var customTabsIntent = new CustomTabsIntent.Builder().build();
-          customTabsIntent.intent.setPackage("com.example.myapplication");
-          customTabsIntent.launchUrl(
-            yourActivityContext,
-            Uri.parse("app_scheme://return")
-          );
+          // // 启动 Custom Tabs
+          // var options = new Bundle();
+          // var customTabsIntent = new CustomTabsIntent.Builder().build();
+          // customTabsIntent.intent.setPackage("com.example.myapplication");
+          // customTabsIntent.launchUrl(
+          //   yourActivityContext,
+          //   Uri.parse("app_scheme://return")
+          // );
+
+            window.close();
         });
 
     
