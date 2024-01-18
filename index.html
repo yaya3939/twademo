@@ -20,6 +20,7 @@ padding: 0;
 
 <h1>message record</h1>
 <button id="returnButton">to app</button>
+<button id="historyBtn">to history</button>
 <ul id="messageList"></ul>
 
 <script>
@@ -47,7 +48,11 @@ padding: 0;
             window.close();
         });
 
-    
+        document
+        .getElementById("historyBtn")
+        .addEventListener("click", function () {
+            window.location.href = "./history.html";
+        })
 
     window.addEventListener('message', handleMessage(event));
 
