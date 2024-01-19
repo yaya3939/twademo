@@ -1,5 +1,5 @@
 [{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "com.example.flutter_demo01",
-                 "sha256_cert_fingerprints": ["別名: key1 作成日: 2024/01/18 エントリ・タイプ: PrivateKeyEntry 証明書チェーンの長さ: 1 証明書[1]: 所有者: C=JP, ST=flutter_demo1, L=flutter_demo1, O=flutter_demo1, OU=flutter_demo1, CN=flutter_demo1 発行者: C=JP, ST=flutter_demo1, L=flutter_demo1, O=flutter_demo1, OU=flutter_demo1, CN=flutter_demo1 シリアル番号: 1 有効期間の開始日: Thu Jan 18 14:44:15 JST 2024終了日: Mon Jan 11 14:44:15 JST 2049 証明書のフィンガプリント:          SHA1: D0:D8:C6:97:2F:65:8C:D7:5F:5D:7C:A0:06:2C:12:AA:08:18:05:0A          SHA256: B1:45:23:88:75:82:6E:5E:AF:7C:1D:88:D3:D8:98:ED:89:6C:B2:DF:E1:78:78:5A:97:27:2A:D5:6A:90:4A:51 署名アルゴリズム名: SHA256withRSA サブジェクト公開キー・アルゴリズム: 2048ビットRSAキー バージョン: 1"] }
-  }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.example.flutter_demo01",
+               "sha256_cert_fingerprints": ["BD:9A:E8:B4:9B:D1:2B:62:ED:6B:3B:0A:F6:64:B1:AF:18:81:E1:1F:36:1E:C2:14:1E:26:EA:36:73:8E:D2:DB"] }
+}]
